@@ -1,5 +1,5 @@
 from flask import Flask, request, render_template, jsonify
-# from flask import escape
+from flask import escape
 import pymysql
 import os
 
