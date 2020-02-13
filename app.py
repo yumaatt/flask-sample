@@ -77,5 +77,14 @@ def hello6():
         })
 
 
+@app.route('/hello7')
+def hello7():
+    data = [
+        {"name":"山田"},
+        {"age":30}
+    ]
+    return data
+
+
 if __name__ == "__main__":
     app.run(debug=True)
